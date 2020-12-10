@@ -1,0 +1,732 @@
+
+2020-11-30 14:30:07,161 - root - INFO - Script started...
+2020-11-30 14:32:41,052 - root - INFO - No new apartment ads
+Cookies already accepted
+Cookies already accepted
+Cookies already accepted
+No new apartment ads
+2020-11-30 14:46:52,174 - root - INFO - Script started...
+2020-11-30 14:48:58,639 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Kreuzberg.8401619.html
+2020-11-30 14:49:28,072 - root - INFO - Ad owner:Enno Fiedler
+2020-11-30 14:49:28,092 - root - INFO - Street name:Hedemannstraße 21A
+2020-11-30 14:49:31,746 - root - INFO - Sending message
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+  File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 84, in <module>
+    logging.info(str(len(uncontacted_links)), ' new ad(s) online')
+Message: '1'
+Arguments: (' new ad(s) online',)
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Kreuzberg.8401619.html
+Ad owner:Enno Fiedler
+Street name:Hedemannstraße 21A
+Sending message
+
+2020-11-30 17:04:08,943 - root - INFO - Script started...
+2020-11-30 17:06:38,461 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenberg.8401969.html
+2020-11-30 17:07:24,664 - root - INFO - Ad owner:Heidi Achton
+ist gerade online
+2020-11-30 17:07:24,689 - root - INFO - Street name:Tannhäuserstr.99
+2020-11-30 17:07:29,779 - root - INFO - Sending message
+2020-11-30 17:07:31,011 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Charlottenburg-Wilmersdorf.8364882.html
+2020-11-30 17:08:32,437 - root - INFO - Ad owner:Tobias R.
+2020-11-30 17:08:32,468 - root - INFO - Street name:Kamminerstr
+2020-11-30 17:09:09,694 - root - INFO - Sending message
+2020-11-30 17:09:10,590 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Rummelsburg.8347284.html
+2020-11-30 17:10:08,653 - root - INFO - Ad owner:Lu
+2020-11-30 17:10:08,671 - root - INFO - Street name:Rupprechtstraße
+2020-11-30 17:10:41,023 - root - INFO - Sending message
+2020-11-30 17:10:41,953 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Tempelhof.8399114.html
+2020-11-30 17:11:07,958 - root - INFO - Ad owner:A. Diab
+2020-11-30 17:11:07,971 - root - INFO - Street name:Attilaplatz
+2020-11-30 17:11:40,487 - root - INFO - Sending message
+2020-11-30 17:11:41,455 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenberg.8395673.html
+2020-11-30 17:12:02,989 - root - INFO - Ad owner:Ordonez Andres
+2020-11-30 17:12:03,002 - root - INFO - Street name:Am Tierpark 49
+2020-11-30 17:12:33,271 - root - INFO - Sending message
+2020-11-30 17:12:34,193 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Koepenick.8211122.html
+2020-11-30 17:12:57,776 - root - INFO - Ad owner:Reiner Rotberg
+2020-11-30 17:12:57,798 - root - INFO - Street name:Puchanstr. 26
+2020-11-30 17:13:30,216 - root - INFO - Sending message
+2020-11-30 17:13:31,135 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Karlshorst.6313427.html
+2020-11-30 17:13:54,676 - root - INFO - Ad owner:D. Kaufmann
+ist gerade online
+2020-11-30 17:13:54,710 - root - INFO - Street name:Dönhoffstr. 28
+2020-11-30 17:14:28,319 - root - INFO - Sending message
+2020-11-30 17:14:29,220 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Velten.5791144.html
+2020-11-30 17:14:52,888 - root - INFO - Ad owner:Daniel Grüderich
+2020-11-30 17:14:52,911 - root - INFO - Street name:Amalienstrasse 17
+2020-11-30 17:15:24,296 - root - INFO - Sending message
+2020-11-30 17:15:25,221 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Berlin.8395422.html
+2020-11-30 17:15:46,309 - root - INFO - Ad owner:Michael
+ist gerade online
+2020-11-30 17:15:46,337 - root - INFO - Street name:Kollwitzstraße 99
+2020-11-30 17:16:13,447 - root - INFO - Sending message
+2020-11-30 17:16:14,350 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Tegel.8374924.html
+2020-11-30 17:16:35,392 - root - INFO - Ad owner:M. Eckert
+2020-11-30 17:16:35,413 - root - INFO - Street name:Schulstrasse 8
+2020-11-30 17:16:59,750 - root - INFO - Sending message
+2020-11-30 17:17:00,651 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Charlottenburg.8233054.html
+2020-11-30 17:17:19,711 - root - INFO - Ad owner:Sylvia
+2020-11-30 17:17:19,750 - root - INFO - Street name:Pestalozzistr.
+2020-11-30 17:17:44,410 - root - INFO - Sending message
+2020-11-30 17:17:45,328 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Kreuzberg.8363933.html
+2020-11-30 17:18:01,956 - root - INFO - Script started...
+2020-11-30 17:18:09,962 - root - INFO - Ad owner:Julius B.
+2020-11-30 17:18:09,981 - root - INFO - Street name:Badener Ring
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+  File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 84, in <module>
+    logging.info(str(len(uncontacted_links)), ' new ad(s) online')
+Message: '20'
+Arguments: (' new ad(s) online',)
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenberg.8401969.html
+Ad owner:Heidi Achton
+ist gerade online
+Street name:Tannhäuserstr.99
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Charlottenburg-Wilmersdorf.8364882.html
+Ad owner:Tobias R.
+Street name:Kamminerstr
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Rummelsburg.8347284.html
+Ad owner:Lu
+Street name:Rupprechtstraße
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Tempelhof.8399114.html
+Ad owner:A. Diab
+Street name:Attilaplatz
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenberg.8395673.html
+Ad owner:Ordonez Andres
+Street name:Am Tierpark 49
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Koepenick.8211122.html
+Ad owner:Reiner Rotberg
+Street name:Puchanstr. 26
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Karlshorst.6313427.html
+Ad owner:D. Kaufmann
+ist gerade online
+Street name:Dönhoffstr. 28
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Velten.5791144.html
+Ad owner:Daniel Grüderich
+Street name:Amalienstrasse 17
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Berlin.8395422.html
+Ad owner:Michael
+ist gerade online
+Street name:Kollwitzstraße 99
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Tegel.8374924.html
+Ad owner:M. Eckert
+Street name:Schulstrasse 8
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Charlottenburg.8233054.html
+Ad owner:Sylvia
+Street name:Pestalozzistr.
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Kreuzberg.8363933.html
+Ad owner:Julius B.
+Street name:Badener Ring
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 106, in <module>
+    browser.find_element_by_xpath('//a[contains(@href,"nachricht-senden")]').click()
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //a[contains(@href,"nachricht-senden")]
+
+No new apartment ads
+2020-11-30 18:18:49,430 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 43, in <module>
+    browser.get(base_site + ext_site)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.wg-gesucht.de/wohnungen-in-Berlin.8.2.1.0.html%3Foffer_filter%3D1%26city_id%3D8%26noDeact%3D1%26categories%5B%5D%3D2%26rent_types%5B%5D%3D2%26sMin%3D50%26rMax%3D1100%26ot%5B%5D%3D85079%26ot%5B%5D%3D151%26ot%5B%5D%3D165%26ot%5B%5D%3D185%26rmMin%3D2%26rmMax%3D4%26exc%3D2&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.wg-gesucht.de.
+
+2020-11-30 18:30:51,529 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 41, in <module>
+    browser.get(base_site)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Failed to decode response from marionette
+
+
+2020-11-30 19:48:19,508 - root - INFO - Script started...
+2020-11-30 19:51:03,292 - root - INFO - No new apartment ads
+No new apartment ads
+2020-11-30 20:04:14,736 - root - INFO - Script started...
+2020-11-30 20:16:24,729 - root - INFO - Script started...
+2020-11-30 20:24:58,781 - root - INFO - No new apartment ads
+No new apartment ads
+2020-11-30 20:34:07,220 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 41, in <module>
+    browser.get(base_site)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Failed to decode response from marionette
+
+2020-11-30 20:46:57,719 - root - INFO - Script started...
+2020-11-30 20:55:39,821 - root - INFO - No new apartment ads
+No new apartment ads
+2020-11-30 21:02:08,816 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 41, in <module>
+    browser.get(base_site)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Timeout loading page after 300000ms
+
+No new apartment ads
+2020-12-02 16:45:57,323 - root - INFO - Script started...
+2020-12-02 16:46:17,537 - root - INFO - Some error occurred - closed browser
+
+No new apartment ads
+2020-12-02 23:18:13,649 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 41, in <module>
+    browser.get(base_site)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.wg-gesucht.de/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.wg-gesucht.de.
+
+No new apartment ads
+2020-12-03 18:01:29,507 - root - INFO - Script started...
+2020-12-03 18:03:18,473 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Charlottenburg.8407114.html
+2020-12-03 18:03:36,300 - root - INFO - Ad owner:Stn
+2020-12-03 18:03:40,038 - root - INFO - Street name:Witzlebenstraße 15
+2020-12-03 18:03:46,165 - root - INFO - Sending message
+2020-12-03 18:03:54,019 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Schmargendorf.8407059.html
+2020-12-03 18:04:40,040 - root - INFO - Some error occurred - closed browser
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+  File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 86, in <module>
+    logging.info(str(len(uncontacted_links)), ' new ad(s) online')
+Message: '20'
+Arguments: (' new ad(s) online',)
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Charlottenburg.8407114.html
+Ad owner:Stn
+Street name:Witzlebenstraße 15
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Schmargendorf.8407059.html
+2020-12-03 18:15:27,904 - root - INFO - Script started...
+2020-12-03 18:16:45,426 - root - INFO - No new apartment ads
+2020-12-03 18:19:54,492 - root - INFO - Script started...
+2020-12-03 18:21:12,160 - root - INFO - No new apartment ads
+No new apartment ads
+2020-12-03 18:31:41,191 - root - INFO - Script started...
+2020-12-03 18:33:04,773 - root - INFO - No new apartment ads
+2020-12-03 23:30:46,179 - root - INFO - Script started...
+2020-12-04 09:39:22,509 - root - INFO - 20 new ad(s) online
+2020-12-04 09:39:22,510 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Moabit.8407642.html
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Moabit.8407642.html
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 94, in <module>
+    browser.get(current_link)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.wg-gesucht.de/wohnungen-in-Berlin-Moabit.8407642.html&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.wg-gesucht.de.
+
+
+
+
+2020-12-05 17:48:39,174 - root - INFO - No new apartment ads
+2020-12-05 18:03:04,740 - root - INFO - Script started...
+2020-12-05 18:04:16,193 - root - INFO - No new apartment ads
+2020-12-05 18:17:50,838 - root - INFO - Script started...
+2020-12-05 18:18:59,514 - root - INFO - 1 new ad(s) online
+2020-12-05 18:18:59,514 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Kreuzberg.8403149.html
+2020-12-05 18:19:06,001 - root - INFO - Ad owner:L. Leon
+2020-12-05 18:19:06,117 - root - INFO - Street name:johanniterstraße
+2020-12-05 18:19:07,432 - root - INFO - Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Kreuzberg.8403149.html
+Ad owner:L. Leon
+Street name:johanniterstraße
+Sending message
+2020-12-05 18:34:27,951 - root - INFO - Script started...
+2020-12-05 18:35:39,652 - root - INFO - No new apartment ads
+2020-12-05 18:47:52,148 - root - INFO - Script started...
+2020-12-05 18:49:12,596 - root - INFO - No new apartment ads
+2020-12-05 19:00:12,140 - root - INFO - Script started...
+2020-12-05 19:01:16,578 - root - INFO - No new apartment ads
+2020-12-05 19:15:32,218 - root - INFO - Script started...
+2020-12-05 19:17:27,186 - root - INFO - No new apartment ads
+2020-12-05 19:31:29,841 - root - INFO - Script started...
+2020-12-05 19:32:37,990 - root - INFO - No new apartment ads
+2020-12-05 19:48:47,589 - root - INFO - Script started...
+2020-12-05 19:50:05,173 - root - INFO - No new apartment ads
+2020-12-05 20:04:31,460 - root - INFO - Script started...
+2020-12-05 20:05:42,135 - root - INFO - No new apartment ads
+2020-12-05 20:16:17,680 - root - INFO - Script started...
+2020-12-05 20:17:24,673 - root - INFO - No new apartment ads
+2020-12-05 20:30:38,311 - root - INFO - Script started...
+2020-12-05 20:32:02,542 - root - INFO - No new apartment ads
+2020-12-05 20:49:43,215 - root - INFO - Script started...
+2020-12-05 20:50:51,957 - root - INFO - No new apartment ads
+2020-12-05 21:04:40,487 - root - INFO - Script started...
+2020-12-05 21:05:57,287 - root - INFO - No new apartment ads
+2020-12-05 21:15:49,944 - root - INFO - Script started...
+2020-12-05 21:17:02,993 - root - INFO - No new apartment ads
+2020-12-05 21:30:47,670 - root - INFO - Script started...
+2020-12-05 21:32:10,861 - root - INFO - No new apartment ads
+2020-12-05 21:49:29,420 - root - INFO - Script started...
+2020-12-05 21:50:40,142 - root - INFO - No new apartment ads
+2020-12-05 22:03:36,712 - root - INFO - Script started...
+2020-12-05 22:06:18,672 - root - INFO - No new apartment ads
+2020-12-05 22:16:56,213 - root - INFO - Script started...
+2020-12-05 22:18:24,286 - root - INFO - No new apartment ads
+2020-12-05 22:33:01,906 - root - INFO - Script started...
+2020-12-05 22:34:26,420 - root - INFO - No new apartment ads
+2020-12-05 22:48:17,072 - root - INFO - Script started...
+2020-12-05 22:49:33,379 - root - INFO - No new apartment ads
+2020-12-05 23:04:11,029 - root - INFO - Script started...
+2020-12-05 23:05:24,487 - root - INFO - No new apartment ads
+2020-12-05 23:18:15,913 - root - INFO - Script started...
+2020-12-05 23:20:13,361 - root - INFO - No new apartment ads
+2020-12-05 23:32:42,470 - root - INFO - Script started...
+2020-12-05 23:34:19,952 - root - INFO - No new apartment ads
+2020-12-05 23:45:04,071 - root - INFO - Script started...
+2020-12-05 23:46:50,711 - root - INFO - No new apartment ads
+2020-12-06 00:03:59,702 - root - INFO - Script started...
+2020-12-06 00:05:38,366 - root - INFO - No new apartment ads
+2020-12-06 00:17:09,180 - root - INFO - Script started...
+2020-12-06 00:18:59,575 - root - INFO - No new apartment ads
+2020-12-06 00:32:38,524 - root - INFO - Script started...
+2020-12-06 00:34:26,541 - root - INFO - No new apartment ads
+2020-12-06 09:15:05,506 - root - INFO - Script started...
+2020-12-06 09:16:47,575 - root - INFO - No new apartment ads
+2020-12-06 09:31:33,473 - root - INFO - Script started...
+2020-12-06 09:33:15,848 - root - INFO - No new apartment ads
+2020-12-06 09:47:51,768 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 80, in <module>
+    uncontacted_links.append(element2.get_attribute("href"))
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 141, in get_attribute
+    self, name)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <a href="/wohnungen-in-Berlin-Berlin.8395422.html"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+
+
+2020-12-08 16:33:16,365 - root - INFO - No new apartment ads
+2020-12-08 16:45:25,611 - root - INFO - Script started...
+2020-12-08 16:46:39,631 - root - INFO - No new apartment ads
+2020-12-08 17:03:09,280 - root - INFO - Script started...
+2020-12-08 17:04:20,412 - root - INFO - No new apartment ads
+2020-12-08 17:19:01,107 - root - INFO - Script started...
+2020-12-08 17:20:22,330 - root - INFO - No new apartment ads
+2020-12-08 17:34:00,406 - root - INFO - Script started...
+2020-12-08 17:35:57,219 - root - INFO - No new apartment ads
+2020-12-08 17:47:35,674 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 79, in <module>
+    element2 = current_element.find_element_by_css_selector('div>a')
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <div id="liste-details-ad-8407114" class="wgg_card offer_list_item  "> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+
+2020-12-08 18:02:28,047 - root - INFO - Script started...
+2020-12-08 18:04:21,220 - root - INFO - No new apartment ads
+2020-12-08 18:16:50,018 - root - INFO - Script started...
+2020-12-08 18:18:34,917 - root - INFO - No new apartment ads
+2020-12-08 18:36:10,059 - root - INFO - Script started...
+2020-12-08 18:37:58,441 - root - INFO - No new apartment ads
+2020-12-08 18:49:04,258 - root - INFO - Script started...
+2020-12-08 18:50:33,116 - root - INFO - No new apartment ads
+2020-12-08 19:03:33,798 - root - INFO - Script started...
+2020-12-08 19:04:52,763 - root - INFO - No new apartment ads
+2020-12-08 19:16:51,431 - root - INFO - Script started...
+2020-12-08 19:18:39,750 - root - INFO - No new apartment ads
+2020-12-08 19:33:40,278 - root - INFO - Script started...
+2020-12-08 19:34:54,655 - root - INFO - No new apartment ads
+2020-12-08 19:45:22,226 - root - INFO - Script started...
+2020-12-08 19:46:50,805 - root - INFO - No new apartment ads
+2020-12-08 20:02:20,361 - root - INFO - Script started...
+2020-12-08 20:04:10,340 - root - INFO - No new apartment ads
+2020-12-08 20:15:50,006 - root - INFO - Script started...
+2020-12-08 20:17:32,763 - root - INFO - No new apartment ads
+2020-12-08 20:33:50,423 - root - INFO - Script started...
+2020-12-08 20:35:09,782 - root - INFO - No new apartment ads
+2020-12-08 20:49:10,455 - root - INFO - Script started...
+2020-12-08 20:50:54,385 - root - INFO - No new apartment ads
+2020-12-08 21:01:02,142 - root - INFO - Script started...
+2020-12-08 21:02:34,531 - root - INFO - No new apartment ads
+2020-12-08 21:18:23,020 - root - INFO - Script started...
+2020-12-08 21:19:41,097 - root - INFO - No new apartment ads
+2020-12-08 21:30:08,662 - root - INFO - Script started...
+2020-12-08 21:32:09,003 - root - INFO - No new apartment ads
+2020-12-08 21:48:16,662 - root - INFO - Script started...
+2020-12-08 21:50:12,558 - root - INFO - No new apartment ads
+2020-12-08 22:02:49,020 - root - INFO - Script started...
+2020-12-08 22:05:00,426 - root - INFO - No new apartment ads
+2020-12-08 22:19:21,589 - root - INFO - Script started...
+2020-12-08 22:21:46,511 - root - INFO - No new apartment ads
+2020-12-08 22:32:17,516 - root - INFO - Script started...
+2020-12-08 22:34:24,928 - root - INFO - No new apartment ads
+2020-12-08 22:50:00,734 - root - INFO - Script started...
+2020-12-08 22:51:51,527 - root - INFO - No new apartment ads
+2020-12-08 23:03:31,942 - root - INFO - Script started...
+2020-12-08 23:05:39,001 - root - INFO - 20 new ad(s) online
+2020-12-08 23:05:39,002 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Hermsdorf.7912426.html
+2020-12-08 23:05:48,813 - root - INFO - Ad owner:Vermieter
+2020-12-08 23:05:51,441 - root - INFO - Street name:nahe S- Bahnhof / S1
+2020-12-08 23:05:58,644 - root - INFO - Sending message
+2020-12-08 23:06:07,777 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenrade.8408929.html
+2020-12-08 23:06:30,097 - root - INFO - Ad owner:Jasmin M.
+2020-12-08 23:06:31,638 - root - INFO - Street name:Kirchhainer Damm
+2020-12-08 23:07:13,334 - root - INFO - Sending message
+2020-12-08 23:07:20,342 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenrade.8415293.html
+2020-12-08 23:07:41,346 - root - INFO - Ad owner:Enrico Gratitude
+2020-12-08 23:07:41,774 - root - INFO - Street name:Lichtenrader Damm
+2020-12-08 23:08:19,629 - root - INFO - Sending message
+2020-12-08 23:08:27,117 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Prenzlauer-Berg.5744080.html
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Hermsdorf.7912426.html
+Ad owner:Vermieter
+Street name:nahe S- Bahnhof / S1
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenrade.8408929.html
+Ad owner:Jasmin M.
+Street name:Kirchhainer Damm
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Lichtenrade.8415293.html
+Ad owner:Enrico Gratitude
+Street name:Lichtenrader Damm
+Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Prenzlauer-Berg.5744080.html
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 97, in <module>
+    ad_title = browser.find_element_by_id("sliderTopTitle").text
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="sliderTopTitle"]
+
+2020-12-08 23:18:27,256 - root - INFO - Script started...
+2020-12-09 08:27:44,415 - root - INFO - 20 new ad(s) online
+2020-12-09 08:27:44,415 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Hermsdorf.7912426.html
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Hermsdorf.7912426.html
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 94, in <module>
+    browser.get(current_link)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.wg-gesucht.de/wohnungen-in-Berlin-Hermsdorf.7912426.html&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.wg-gesucht.de.
+
+2020-12-09 08:30:05,093 - root - INFO - Script started...
+2020-12-09 08:31:16,670 - root - INFO - No new apartment ads
+2020-12-09 08:49:18,942 - root - INFO - Script started...
+2020-12-09 08:50:35,967 - root - INFO - No new apartment ads
+2020-12-09 09:04:32,619 - root - INFO - Script started...
+2020-12-09 09:05:31,770 - root - INFO - No new apartment ads
+2020-12-09 09:16:32,419 - root - INFO - Script started...
+2020-12-09 09:18:06,090 - root - INFO - No new apartment ads
+2020-12-09 09:30:34,761 - root - INFO - Script started...
+2020-12-09 09:31:44,991 - root - INFO - No new apartment ads
+2020-12-09 09:46:20,301 - root - INFO - Script started...
+2020-12-09 09:47:23,209 - root - INFO - No new apartment ads
+2020-12-09 10:01:51,903 - root - INFO - Script started...
+2020-12-09 10:03:21,078 - root - INFO - No new apartment ads
+2020-12-09 10:17:59,182 - root - INFO - Script started...
+2020-12-09 10:19:09,179 - root - INFO - No new apartment ads
+2020-12-09 10:34:00,893 - root - INFO - Script started...
+2020-12-09 10:35:25,352 - root - INFO - No new apartment ads
+2020-12-09 10:48:02,032 - root - INFO - Script started...
+2020-12-09 10:49:49,614 - root - INFO - No new apartment ads
+2020-12-09 11:03:40,674 - root - INFO - Script started...
+2020-12-09 11:04:45,845 - root - INFO - No new apartment ads
+2020-12-09 11:17:59,477 - root - INFO - Script started...
+2020-12-09 11:19:10,142 - root - INFO - No new apartment ads
+2020-12-09 11:30:44,760 - root - INFO - Script started...
+2020-12-09 11:32:00,031 - root - INFO - No new apartment ads
+2020-12-09 11:47:55,158 - root - INFO - Script started...
+2020-12-09 11:49:25,921 - root - INFO - No new apartment ads
+2020-12-09 12:03:13,672 - root - INFO - Script started...
+2020-12-09 12:04:21,200 - root - INFO - No new apartment ads
+2020-12-09 12:15:38,941 - root - INFO - Script started...
+2020-12-09 12:16:49,849 - root - INFO - No new apartment ads
+2020-12-09 12:33:39,551 - root - INFO - Script started...
+2020-12-09 12:34:49,753 - root - INFO - No new apartment ads
+2020-12-09 12:45:50,423 - root - INFO - Script started...
+2020-12-09 12:46:53,687 - root - INFO - No new apartment ads
+2020-12-09 13:04:40,331 - root - INFO - Script started...
+2020-12-09 13:05:44,497 - root - INFO - No new apartment ads
+2020-12-09 13:19:19,015 - root - INFO - Script started...
+2020-12-09 13:20:15,703 - root - INFO - No new apartment ads
+2020-12-09 13:34:13,263 - root - INFO - Script started...
+2020-12-09 13:35:52,441 - root - INFO - No new apartment ads
+2020-12-09 13:48:09,133 - root - INFO - Script started...
+2020-12-09 13:49:29,894 - root - INFO - No new apartment ads
+2020-12-09 14:02:25,198 - root - INFO - Script started...
+2020-12-09 14:03:43,293 - root - INFO - No new apartment ads
+2020-12-09 14:19:49,118 - root - INFO - Script started...
+2020-12-09 14:21:10,950 - root - INFO - No new apartment ads
+2020-12-09 14:30:55,238 - root - INFO - Script started...
+2020-12-09 14:31:54,600 - root - INFO - No new apartment ads
+2020-12-09 14:49:05,270 - root - INFO - Script started...
+2020-12-09 14:50:13,067 - root - INFO - No new apartment ads
+2020-12-09 15:00:13,744 - root - INFO - Script started...
+2020-12-09 15:01:20,508 - root - INFO - No new apartment ads
+2020-12-09 15:18:50,153 - root - INFO - Script started...
+2020-12-09 15:19:53,539 - root - INFO - No new apartment ads
+2020-12-09 15:30:11,037 - root - INFO - Script started...
+2020-12-09 15:31:21,110 - root - INFO - No new apartment ads
+2020-12-09 15:45:15,780 - root - INFO - Script started...
+2020-12-09 15:46:36,112 - root - INFO - No new apartment ads
+2020-12-09 16:03:43,637 - root - INFO - Script started...
+2020-12-09 16:05:23,544 - root - INFO - No new apartment ads
+2020-12-09 16:17:52,108 - root - INFO - Script started...
+2020-12-09 16:19:11,774 - root - INFO - No new apartment ads
+2020-12-09 16:32:12,415 - root - INFO - Script started...
+2020-12-09 16:33:24,732 - root - INFO - No new apartment ads
+2020-12-09 16:46:51,394 - root - INFO - Script started...
+2020-12-09 16:48:24,509 - root - INFO - No new apartment ads
+2020-12-09 17:00:31,176 - root - INFO - Script started...
+2020-12-09 17:01:57,431 - root - INFO - No new apartment ads
+2020-12-09 17:18:51,977 - root - INFO - Script started...
+2020-12-09 17:20:03,541 - root - INFO - No new apartment ads
+2020-12-09 17:32:24,072 - root - INFO - Script started...
+2020-12-09 17:33:30,050 - root - INFO - No new apartment ads
+2020-12-09 17:49:27,590 - root - INFO - Script started...
+2020-12-09 17:50:39,751 - root - INFO - No new apartment ads
+2020-12-09 18:01:53,464 - root - INFO - Script started...
+2020-12-09 18:03:11,358 - root - INFO - No new apartment ads
+2020-12-09 18:18:22,021 - root - INFO - Script started...
+2020-12-09 18:19:44,276 - root - INFO - No new apartment ads
+2020-12-09 18:30:35,913 - root - INFO - Script started...
+2020-12-09 18:32:03,157 - root - INFO - No new apartment ads
+2020-12-09 18:47:42,550 - root - INFO - Script started...
+2020-12-09 18:48:59,455 - root - INFO - No new apartment ads
+2020-12-09 19:03:01,077 - root - INFO - Script started...
+2020-12-09 19:04:05,836 - root - INFO - No new apartment ads
+2020-12-09 19:16:23,350 - root - INFO - Script started...
+2020-12-09 19:17:46,483 - root - INFO - No new apartment ads
+2020-12-09 19:30:13,993 - root - INFO - Script started...
+2020-12-09 19:31:35,072 - root - INFO - No new apartment ads
+2020-12-09 19:49:08,816 - root - INFO - Script started...
+2020-12-09 19:50:28,112 - root - INFO - No new apartment ads
+2020-12-09 20:03:05,792 - root - INFO - Script started...
+2020-12-09 20:04:16,535 - root - INFO - No new apartment ads
+2020-12-09 20:17:10,175 - root - INFO - Script started...
+2020-12-09 20:18:40,096 - root - INFO - No new apartment ads
+2020-12-09 20:31:35,771 - root - INFO - Script started...
+2020-12-09 20:32:57,220 - root - INFO - No new apartment ads
+2020-12-09 20:45:56,774 - root - INFO - Script started...
+2020-12-09 20:47:33,508 - root - INFO - No new apartment ads
+2020-12-09 21:01:28,178 - root - INFO - Script started...
+2020-12-09 21:03:14,378 - root - INFO - No new apartment ads
+2020-12-09 21:17:27,843 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 80, in <module>
+    uncontacted_links.append(element2.get_attribute("href"))
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 141, in get_attribute
+    self, name)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <a href="/wohnungen-in-Berlin-Zehlendorf.8357766.html"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+
+2020-12-09 21:30:15,741 - root - INFO - Script started...
+2020-12-09 21:32:22,970 - root - INFO - No new apartment ads
+2020-12-09 21:48:03,976 - root - INFO - Script started...
+2020-12-09 21:50:19,369 - root - INFO - No new apartment ads
+2020-12-09 22:00:58,238 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 80, in <module>
+    uncontacted_links.append(element2.get_attribute("href"))
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 141, in get_attribute
+    self, name)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <a href="/wohnungen-in-Berlin-Reinickendorf.8374924.html"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+
+2020-12-09 22:17:52,113 - root - INFO - Script started...
+2020-12-09 22:19:49,934 - root - INFO - No new apartment ads
+2020-12-09 22:34:47,453 - root - INFO - Script started...
+2020-12-09 22:37:09,429 - root - INFO - No new apartment ads
+2020-12-09 22:47:00,452 - root - INFO - Script started...
+2020-12-09 22:49:18,020 - root - INFO - No new apartment ads
+2020-12-09 23:04:58,422 - root - INFO - Script started...
+2020-12-09 23:06:45,181 - root - INFO - No new apartment ads
+2020-12-09 23:18:59,456 - root - INFO - Script started...
+2020-12-09 23:20:49,252 - root - INFO - No new apartment ads
+2020-12-09 23:33:22,613 - root - INFO - Script started...
+2020-12-09 23:35:22,371 - root - INFO - No new apartment ads
+2020-12-09 23:49:37,859 - root - INFO - Script started...
+2020-12-09 23:51:26,045 - root - INFO - 1 new ad(s) online
+2020-12-09 23:51:26,046 - root - INFO - Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Neukoelln.3953843.html
+2020-12-09 23:51:46,543 - root - INFO - Ad owner:Mitridate Minovi
+2020-12-09 23:51:48,186 - root - INFO - Street name:allerstr, 6
+2020-12-09 23:51:56,965 - root - INFO - Sending message
+Looking at ad: https://www.wg-gesucht.de/wohnungen-in-Berlin-Neukoelln.3953843.html
+Ad owner:Mitridate Minovi
+Street name:allerstr, 6
+Sending message
+2020-12-10 00:04:56,158 - root - INFO - Script started...
+2020-12-10 00:06:54,419 - root - INFO - No new apartment ads
+2020-12-10 00:19:39,510 - root - INFO - Script started...
+2020-12-10 00:21:25,562 - root - INFO - No new apartment ads
+2020-12-10 00:32:45,079 - root - INFO - Script started...
+Traceback (most recent call last):
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/main.py", line 80, in <module>
+    uncontacted_links.append(element2.get_attribute("href"))
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 141, in get_attribute
+    self, name)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/william/PycharmProjects/ApartmentWebCrawler/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <a href="/wohnungen-in-Berlin-Spandau.7606020.html"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+
+2020-12-10 00:47:59,974 - root - INFO - Script started...
+2020-12-10 00:50:02,999 - root - INFO - No new apartment ads
+2020-12-10 01:00:12,098 - root - INFO - Script started...
+2020-12-10 01:02:09,619 - root - INFO - No new apartment ads
+2020-12-10 01:18:05,749 - root - INFO - Script started...
+2020-12-10 09:39:35,875 - root - INFO - No new apartment ads
+2020-12-10 09:46:53,573 - root - INFO - Script started...
+2020-12-10 09:48:00,488 - root - INFO - No new apartment ads
+2020-12-10 10:01:37,008 - root - INFO - Script started...
+2020-12-10 10:02:35,860 - root - INFO - No new apartment ads
+2020-12-10 10:19:58,789 - root - INFO - Script started...
+2020-12-10 10:21:03,601 - root - INFO - No new apartment ads
+2020-12-10 10:34:52,270 - root - INFO - Script started...
+2020-12-10 10:35:53,230 - root - INFO - No new apartment ads
+2020-12-10 10:47:36,736 - root - INFO - Script started...
+2020-12-10 10:48:53,334 - root - INFO - No new apartment ads
+2020-12-10 11:03:01,679 - root - INFO - Script started...
+2020-12-10 11:04:29,936 - root - INFO - No new apartment ads
+2020-12-10 11:15:28,579 - root - INFO - Script started...
+2020-12-10 11:16:56,276 - root - INFO - No new apartment ads
+2020-12-10 11:30:59,297 - root - INFO - Script started...
+2020-12-10 11:32:13,736 - root - INFO - No new apartment ads
+2020-12-10 11:45:58,911 - root - INFO - Script started...
+2020-12-10 11:47:20,386 - root - INFO - No new apartment ads
+2020-12-10 12:03:06,057 - root - INFO - Script started...
+2020-12-10 12:04:18,768 - root - INFO - No new apartment ads
+2020-12-10 12:16:43,966 - root - INFO - Script started...
+2020-12-10 12:17:55,761 - root - INFO - No new apartment ads
+2020-12-10 12:30:50,303 - root - INFO - Script started...
+2020-12-10 12:31:50,030 - root - INFO - No new apartment ads
+2020-12-10 12:46:46,571 - root - INFO - Script started...
+2020-12-10 12:47:54,063 - root - INFO - No new apartment ads
+2020-12-10 13:02:25,698 - root - INFO - Script started...
+2020-12-10 13:03:29,582 - root - INFO - No new apartment ads
+2020-12-10 13:19:43,249 - root - INFO - Script started...
+2020-12-10 13:20:54,490 - root - INFO - No new apartment ads
+2020-12-10 13:34:02,178 - root - INFO - Script started...
+2020-12-10 13:35:11,646 - root - INFO - No new apartment ads
+2020-12-10 13:47:43,865 - root - INFO - Script started...
+2020-12-10 13:48:58,524 - root - INFO - No new apartment ads
+2020-12-10 14:04:35,239 - root - INFO - Script started...
+2020-12-10 14:05:45,019 - root - INFO - No new apartment ads
+2020-12-10 14:17:38,533 - root - INFO - Script started...
+2020-12-10 14:18:47,150 - root - INFO - No new apartment ads
+2020-12-10 14:31:20,783 - root - INFO - Script started...
+2020-12-10 14:32:41,132 - root - INFO - No new apartment ads
+2020-12-10 14:45:04,800 - root - INFO - Script started...
+2020-12-10 14:46:13,585 - root - INFO - No new apartment ads
+2020-12-10 15:03:36,255 - root - INFO - Script started...
+2020-12-10 15:04:59,275 - root - INFO - No new apartment ads
+2020-12-10 15:17:56,937 - root - INFO - Script started...
+2020-12-10 15:19:01,621 - root - INFO - No new apartment ads
+2020-12-10 15:34:04,109 - root - INFO - Script started...
+2020-12-10 15:35:15,053 - root - INFO - No new apartment ads
+2020-12-10 15:46:54,573 - root - INFO - Script started...
+2020-12-10 15:48:21,219 - root - INFO - Script started...
+2020-12-10 15:48:23,112 - root - INFO - No new apartment ads
+2020-12-10 15:49:27,422 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc614a47f98>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/747d3b0f-7821-4ec7-9743-f443b1b9b2b6
+2020-12-10 15:49:27,423 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6145d2080>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/747d3b0f-7821-4ec7-9743-f443b1b9b2b6
+2020-12-10 15:49:27,423 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6145d2160>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/747d3b0f-7821-4ec7-9743-f443b1b9b2b6
