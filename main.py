@@ -58,7 +58,7 @@ try:
 
     browser.implicitly_wait(random.randint(20, 30))
     username.send_keys("willbakermorrison@gmail.com")
-    password.send_keys("vines9")
+    password.send_keys("******")
     browser.find_element_by_id("login_submit").click()
 
     # Accept cookies again (Not always necessary?)
