@@ -129,7 +129,7 @@ try:
                               """ und Doktorandin. Wir leben seit zwei Jahren in Kreuzberg und suchen für die nächsten""" \
                               """ Jahre eine größere Wohnung.\n\nWir haben alle Bewerbungsunterlagen sowohl digital als""" \
                               """ auch ausgedruckt jederzeit bereit.\n\nSie können mich entweder hier, via Email""" \
-                              """ (williambakermorrison@posteo.de) oder telefonisch unter der Nummer 017658903116""" \
+                              """ (***********@posteo.de) oder telefonisch unter der Nummer *********""" \
                               """ erreichen.\n\nMit freundlichen Grüßen,\nWill Baker Morrison und Nora Delvendahl"""
 
                     # Setup message
