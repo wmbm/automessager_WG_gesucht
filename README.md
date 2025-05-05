@@ -1,7 +1,8 @@
-Automessager WG-Gesucht
+# Automessager WG-Gesucht
 
 This Python script automates the process of sending application messages to listings on WG-Gesucht.de, a popular platform for finding shared apartments in Germany. It is designed to streamline the application process by automatically identifying new listings that match specified criteria and sending personalized messages to them.
-Features
+
+## Features
 
     Automated scanning of WG-Gesucht listings based on user-defined search parameters.
 
@@ -11,7 +12,7 @@ Features
 
     Logging of sent messages and application statuses for tracking purposes.
 
-Requirements
+## Requirements
 
     Python 3.6 or higher
 
@@ -22,7 +23,7 @@ Requirements
     A WG-Gesucht account
     GitHub
 
-Installation
+## Installation
 
     Clone the repository:
 
@@ -40,7 +41,7 @@ Installation
 
     Download and install Geckodriver and ensure it is in your system's PATH.
 
-Usage
+## Usage
 
     Configure your search parameters and message templates in a configuration file or directly within the script.
 
@@ -50,7 +51,7 @@ Usage
 
     The script will log in to your WG-Gesucht account, search for new listings matching your criteria, and send application messages using your templates.
 
-Notes
+## Notes
 
     Ensure that your WG-Gesucht account credentials are stored securely and not hard-coded into the script.
 
